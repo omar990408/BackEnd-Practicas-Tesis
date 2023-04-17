@@ -25,6 +25,7 @@ public class UsuarioController {
         Rol rol = new Rol();
         rol.setRolId(2L);
         rol.setNombre("NORMAL");
+
         UsuarioRol usuarioRol = new UsuarioRol();
         usuarioRol.setUsuario(usuario);
         usuarioRol.setRol(rol);
